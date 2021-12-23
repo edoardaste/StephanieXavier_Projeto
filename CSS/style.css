@@ -1,0 +1,182 @@
+
+.body {
+    background: linear-gradient(45deg, #1C0C5B, #3D2C8D, #916BBF, #C996CC);
+    background-size: 300%, 300%;
+    animation: colors 10s ease infinite;
+}
+
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo-menu {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    
+}
+
+.flex-container {
+    display:flex; 
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    border-radius: 10px 20px 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.flex-container a:hover {
+    color: rgb(35, 16, 212);
+   }
+
+.container {
+    
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    width: 300px;
+    height: 200px;
+    margin-right: 0px;
+    border-radius: 10px;
+    background-image: url(../imagens/Linkedin_Logo.png);
+    background-position: center;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;   
+
+}
+.github {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(../imagens/github.png);
+    background-repeat: no-repeat;
+    background-size: 200px, 100px;
+    background-color: white;
+}
+
+.linkedin:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    
+}
+
+.github:hover {
+
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.home:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.pessoal:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.contato:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    }
+
+
+.flex-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-pessoal {
+    position: relative;
+    border-radius: 20px 30px 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.caixa-formulario {
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: indigo;
+    
+}
+
+
+input {
+
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.botao-enviar {
+    width: 80px;
+    margin-top: 40px;
+
+}
+
+.botao-enviar:hover {
+
+    color: blue;
+
+
+}
+
+
