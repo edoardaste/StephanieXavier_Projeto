@@ -21,30 +21,76 @@
 }
 
 .logo-menu {
-    display: flex;
-    margin-bottom: 5px;
-    justify-content: center;
-    background-color: black;
+    display:flex; 
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
     align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px 100px 100px;
+    background-image: url(../imagens/foto-perfil.jpg);
+    background-size: 200px;
+    background-position: center;
+    margin-bottom: 20px;
+
 }
 
 .flex-container {
     display:flex; 
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-evenly;
+    font-size: 28px;
+    font-family:'Courier New', Courier, monospace;
+    justify-content:space-evenly;
     border-radius: 10px 20px 10px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0);
     align-items: center;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+.home {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.pessoal {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contato {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 
 .flex-container a:hover {
-    color: rgb(35, 16, 212);
+    color: rgb(22, 132, 165);
+    font-size: 30px;
    }
 
 .container {
